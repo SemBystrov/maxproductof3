@@ -1,0 +1,33 @@
+#app {
+  padding: 10px;
+}
+
+h1,
+p,
+.input {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p.input__description {
+  color: gray;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.input {
+  border: none;
+  box-shadow: 0 0 4px lightgray;
+  width: 100%;
+  padding: 4px;
+  height: 24px;
+}
+
+.input.wait,
+.input.wait:active,
+.input.input.wait:focus {
+  border: 2px solid yellow;
+}
